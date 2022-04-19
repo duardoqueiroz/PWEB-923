@@ -4,44 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Apresentação</title>
   </head>
   <body>
-    <div style="display: flex; padding: 30px; box-shadow: gray 0px 0px 10px">
+    <div class="card">
       <img
-        style="border-radius: 50%"
         width="300"
         height="300"
         src="https://avatars.githubusercontent.com/u/83377894?v=4"
         alt="Perfil"
       />
-      <div style="width: 100%; margin-top: 15px">
-        <h1
-          style="
-            font-size: 3em;
-            height: auto;
-            margin: 0 auto;
-            text-align: center;
-          "
-        >
+      <div class="content">
+        <h1>
           Eduardo Lúcio de Queiroz
         </h1>
-        <h2
-          style="
-            font-size: 2em;
-            color: gray;
-            margin: 0 auto;
-            text-align: center;
-          "
-        >
+        <h2>
           Futuro Desenvolvedor Full-Stack
         </h2>
-        <ul style="font-size: 2em; font-style: italic; margin-left: 15px">
+        <ul>
           <li>Idade : 17 anos</li>
           <li>
             Github:
             <a
-              style="text-decoration: none"
               target="_blank"
               href="https://github.com/duardoqueiroz"
               >duardoqueiroz</a
@@ -50,7 +35,6 @@
           <li>
             Instagram:
             <a
-              style="text-decoration: none"
               href="https://www.instagram.com/_dudu.lucio16"
               target="_blank"
               >_dudu.lucio16</a
@@ -59,7 +43,6 @@
           <li>
             Linkedin :
             <a
-              style="text-decoration: none"
               target="_blank"
               href="https://www.linkedin.com/in/eduardo-queiroz-2785ba215/"
               >Eduardo queiroz</a
@@ -67,6 +50,22 @@
           </li>
         </ul>
       </div>
+    </div>
+
+    <div>
+      <form>
+        <span>Nome</span>
+        <input type="text" placeholder="Insira aqui">
+        <span>Sobrenome</span>
+        <input type="text" placeholder="Insira aqui">
+        <span>Idade</span>
+        <input type="text" placeholder="Insira aqui">
+        <span>Informe aqui seu email</span>
+        <input type="email" placeholder="Insira aqui">
+        <span>Frente e verso do cartâo</span>
+        <input type="file" placeholder="Insira aqui">
+        <button type="submit">Enviar</button>
+      </form>
     </div>
   </body>
 </html>
