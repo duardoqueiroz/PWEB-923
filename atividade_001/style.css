@@ -2,6 +2,7 @@
   display: flex;
   padding: 30px;
   box-shadow: gray 0px 0px 10px;
+  background-color: gainsboro;
 }
 
 img{
@@ -16,20 +17,21 @@ img{
 h1{
   font-size: 3em;
   height: auto;
-  margin: 0 auto;
+  margin: 0;
   text-align: center;
 }
 
 h2{
   font-size: 2em;
   color: gray;
-  margin: 0 auto;
+  margin: 0;
   text-align: center;
 }
 
 ul{
   font-size: 2em;
   font-style: italic;
+  color: darkblue;
   margin-left: 15px;
 }
 
