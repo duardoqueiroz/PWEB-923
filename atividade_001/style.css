@@ -1,0 +1,67 @@
+.card {
+  display: flex;
+  padding: 30px;
+  box-shadow: gray 0px 0px 10px;
+  background-color: gainsboro;
+}
+
+img{
+  border-radius: 50%;
+}
+
+.content {
+  width: 100%;
+  margin-top: 15px;
+}
+
+h1{
+  font-size: 3em;
+  height: auto;
+  margin: 0;
+  text-align: center;
+}
+
+h2{
+  font-size: 2em;
+  color: gray;
+  margin: 0;
+  text-align: center;
+}
+
+ul{
+  font-size: 2em;
+  font-style: italic;
+  color: darkblue;
+  margin-left: 15px;
+}
+
+a{
+  text-decoration: none;
+}
+
+form{
+  padding-top: 30px;
+  width: max-content;
+  margin: 0 auto;
+  font-size: larger;
+}
+
+span{
+  font-size: x-large;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input{
+  width: 300px;
+  padding: 10px;
+}
+
+button{
+  color: green;
+  font-size: large;
+  padding: 5px 1px;
+  display: block; 
+  margin: 30px auto;
+}
