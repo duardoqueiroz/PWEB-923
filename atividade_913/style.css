@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+nav > ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+li > a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+section {
+  padding: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.others {
+  margin-top: 5px;
+  padding: 15px;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+.others > p {
+  line-height: 8px;
+}
+
+.others > div {
+  margin-top: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#div1 {
+  display: flex;
+}
+
+#div1 > div {
+  margin-top: 15px;
+  margin-left: 30px;
+  line-height: 30px;
+}
+
+#form {
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+#form > h3 {
+  color: red;
+}
+
+#form > form {
+  margin-top: 10px;
+  display: flex;
+}
+
+form > div {
+  margin-right: 30px;
+}
